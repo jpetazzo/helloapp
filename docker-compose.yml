@@ -1,4 +1,7 @@
-www:
-  image: nginx
-  ports:
-  - "80:80"
+version: "3"
+
+services:
+  www:
+    image: nginx
+    ports:
+    - "80:80"
