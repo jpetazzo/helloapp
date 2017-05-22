@@ -1,7 +1,13 @@
 version: "3"
 
 services:
+
   www:
     image: nginx
     ports:
     - "80:80"
+
+  es:
+    image: elasticsearch:2
+    ports:
+    - "9200:9200"
